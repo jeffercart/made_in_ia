@@ -92,7 +92,7 @@ function draw() {
   if (estado == 0) {
     image(intro, 0, 0);
   }
-  if (frameCount > 300) {
+  if (frameCount > 250) {
     if      (pagina == 1){
                 window.open("https://jeffercart.github.io/audios/", "_top");} //audios
     else if (pagina == 2){
